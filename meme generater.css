@@ -1,0 +1,41 @@
+h1 {
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+}
+
+body{
+  margin: 10px;
+  background-color: #080fe2;
+  background: url("back\ img.jpg");
+  background-position: top-left;
+  background-size: cover;
+}
+p {
+  font-family: "sans-serif";
+}
+
+#meme-canvas {
+    width: 500px;
+}
+ a {
+  background-color: blue;
+  color: white;
+  padding: 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+    }
+a:hover {
+  background-color: green;
+}
+button {
+   background-color: #4747e1;
+  color: white;
+  padding: 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+    }
+button:hover {
+  background-color: green;
+}

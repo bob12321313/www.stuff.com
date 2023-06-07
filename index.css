@@ -1,0 +1,91 @@
+body {
+  color: yellow;
+  background: black;
+}
+    
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: blue;
+  color: red;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: green;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: red;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: green;
+}
+
+.show {
+  display: block;
+}
+
+
+
+ a {
+  background-color: blue;
+  color: white;
+  padding: 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+    }
+      a:hover {
+  background-color: green;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+}
+.head {
+  display: box;
+  background-color: black;
+  padding: 20px;
+  text-decoration-color: blue;
+  outline: 10px solid red;
+}
+.logo {
+   position: absolute;
+  top: 0px;
+  right: 10px;
+}
+.text {
+  background-color: black;
+  width: 95%;
+  height: 800px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 400px;
+}
+
+

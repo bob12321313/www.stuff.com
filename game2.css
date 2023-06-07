@@ -1,0 +1,21 @@
+body {
+  font-family: sans-serif;
+  color: white;
+}
+h1 {
+  text-align: center;
+  color: white;
+}
+#game-board {
+  display: block;
+  margin: auto;
+  border: 2px solid #f1e9e9;
+}
+body {
+	background:url(game\ background.jpg) no-repeat 0 0;
+	background-size:cover;
+}
+a {
+  color: white;
+}
+
