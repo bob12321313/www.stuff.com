@@ -1,5 +1,5 @@
-const usernames = ["7L", "beck", "Tom"];
-const passwords = ["password", "beb", "Bigman420"];
+const usernames = JSON.parse(localStorage.getItem('usernames'));
+const passwords = JSON.parse(localStorage.getItem('passwords'));
 const loginForm = document.getElementById('login-form');
 loginForm.addEventListener('submit', e => {
   e.preventDefault();
