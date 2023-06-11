@@ -19,11 +19,18 @@ if (localStorage.getItem('names')) {
 // Function to handle form submission
 function handleFormSubmit(event) {
   event.preventDefault(); // Prevent form submission
-
-  // Get the entered username and password values
+  
   const nameInput = document.getElementById('name');
   const usernameInput = document.getElementById('username');
   const passwordInput = document.getElementById('password');
+  
+  if (passwords.includes(passwordInput) {
+      alert("username/password already exists");
+}
+  if (usernames.includes(usernameInput) {
+      alert("username/password already exists");
+}
+  else {
 
   const name = nameInput.value;
   const username = usernameInput.value;
@@ -41,7 +48,7 @@ function handleFormSubmit(event) {
   localStorage.setItem('passwords', JSON.stringify(passwords));
   alert('success');
   
-
+  }
   
   // Clear the form inputs
   nameInput.value = '';
