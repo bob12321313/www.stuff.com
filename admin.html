@@ -2,6 +2,11 @@
 <html>
   <head>
     <script>
+      const usernames = JSON.parse(localStorage.getItem('usernames'));
+      const passwords = JSON.parse(localStorage.getItem('passwords'));
+      alert(usernames);
+      alert(passwords);
+      
       var myVariable = "Hello, World!";
 var headingElement = document.getElementById("myHeading");
 headingElement.innerText = myVariable;
