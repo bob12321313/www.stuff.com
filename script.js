@@ -23,7 +23,7 @@ if (usernames.includes(username)) {
   if (cd_password.includes(password)) {
   
   document.getElementById('link').style.display='block';
-  alert(`login successful ${username}!`);
+  alert(`Login successful ${username}!`);
     
   }
  }
