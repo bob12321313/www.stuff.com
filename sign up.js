@@ -24,7 +24,7 @@ function handleFormSubmit(event) {
   const usernameInput = document.getElementById('username');
   const passwordInput = document.getElementById('password');
   
-  if (passwords.includes(passwordInput)) {
+  if (passwords.includes(usernameInput);) {
       alert('username/password already exists');
 }
   if (usernames.includes(usernameInput)) {
