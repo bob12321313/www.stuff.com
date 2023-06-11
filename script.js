@@ -28,5 +28,5 @@ if (usernames.includes(username)) {
   }
  }
   
- loginForm.reset();
+loginForm.reset();
 });
