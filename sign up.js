@@ -47,9 +47,7 @@ function handleFormSubmit(event) {
   localStorage.setItem('usernames', JSON.stringify(usernames));
   localStorage.setItem('passwords', JSON.stringify(passwords));
   alert('success');
-  alert(usernames);
-  alert(passwords);
-  
+ 
   }
   
   // Clear the form inputs
