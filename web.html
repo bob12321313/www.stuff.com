@@ -25,8 +25,10 @@
     </style>
     <script>
       import {username1, password1} from './script.js';
+      const username = username1.value.trim();
+      const password = password2.value.trim();
       
-       if (username1 === 'beck' && password1 === 'beb') {
+       if (username === 'beck' && password === 'beb') {
         document.getElementById('admin').style.display='block';
      }
       </script>
