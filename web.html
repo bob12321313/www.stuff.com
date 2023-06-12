@@ -24,9 +24,10 @@
 }
     </style>
     <script>
-      import {username1, password1} from './script.js';
-      if (username1 === 'beck') {
-        if (password1 === 'beb') {
+      const username = sessionStorage.getItem('username');
+      const password = sessionStorage.getItem('password');
+      if (username === 'beck') {
+        if (password === 'beb') {
       document.getElementById('admin').style.display='block';
         }
       }
