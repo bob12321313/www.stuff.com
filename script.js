@@ -1,4 +1,5 @@
-
+export const username1 = document.getElementById('username');
+export const username2 = document.getElementById('password');
 const usernames = JSON.parse(localStorage.getItem('usernames'));
 const passwords = JSON.parse(localStorage.getItem('passwords'));
 const loginForm = document.getElementById('login-form');
@@ -10,10 +11,6 @@ loginForm.addEventListener('submit', e => {
 
   const username = usernameField.value.trim();
   const password = passwordField.value.trim();
-  
-  export var username1 = username;
-  export var password1 = password;
-
   
   if (username === '' || password === '') {
   
