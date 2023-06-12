@@ -1,5 +1,3 @@
-export const username1 = document.getElementById('username');
-export const password1 = document.getElementById('password');
 
 const usernames = JSON.parse(localStorage.getItem('usernames'));
 const passwords = JSON.parse(localStorage.getItem('passwords'));
