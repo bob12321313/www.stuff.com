@@ -7,8 +7,9 @@ loginForm.addEventListener('submit', e => {
   const usernameField = document.getElementById('username');
   const passwordField = document.getElementById('password');
 
-  const username = usernameField.value.trim();
-  const password = passwordField.value.trim();
+  export const username = usernameField.value.trim();
+  export const password = passwordField.value.trim();
+  
   if (username === '' || password === '') {
   
     const error = document.getElementById('error-message');
