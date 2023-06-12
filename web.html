@@ -24,8 +24,8 @@
 }
     </style>
     <script>
-      var username = sessionStorage.getItem('username');
-      var password = sessionStorage.getItem('password');
+      import {username, password} from './script.js';
+      
        if (username === 'beck' && password === 'beb') {
         document.getElementById('admin').style.display='block';
      }
