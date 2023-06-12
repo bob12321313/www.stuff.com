@@ -7,11 +7,12 @@ loginForm.addEventListener('submit', e => {
   const usernameField = document.getElementById('username');
   const passwordField = document.getElementById('password');
 
-  export const username1 = usernameField.value.trim();
-  export const password1 = passwordField.value.trim();
-  
   const username = usernameField.value.trim();
   const password = passwordField.value.trim();
+  
+  sessionStorage.setItem('username', username);
+  sessionStorage.setItem('password', password);
+
   
   if (username === '' || password === '') {
   
