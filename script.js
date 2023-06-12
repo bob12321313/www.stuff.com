@@ -31,7 +31,7 @@ if (usernames.includes(username)) {
   alert(`Login successful ${username}!`);
   if (username === 'beck' && password === 'beb') {
         document.getElementById('admin').style.display='block';
-      }
+     }
     
   }
  }
