@@ -1,5 +1,13 @@
 const usernames = JSON.parse(localStorage.getItem('usernames'));
 const passwords = JSON.parse(localStorage.getItem('passwords'));
+
+
+
+
+
+
+
+
 const loginForm = document.getElementById('login-form');
 loginForm.addEventListener('submit', e => {
   e.preventDefault();
@@ -9,7 +17,6 @@ loginForm.addEventListener('submit', e => {
 
   const username = usernameField.value.trim();
   const password = passwordField.value.trim();
-  
   if (username === '' || password === '') {
   
     const error = document.getElementById('error-message');
@@ -24,13 +31,12 @@ if (usernames.includes(username)) {
   if (cd_password.includes(password)) {
   
   document.getElementById('link').style.display='block';
-  alert(`Login successful ${username}!`);
-  if (username === 'beck' && password === 'beb') {
-        document.getElementById('admin').style.display='block';
-     }
+  alert(`login successful ${username}!`);
     
   }
  }
   
-loginForm.reset();
+  loginForm.reset();
 });
+
+  
