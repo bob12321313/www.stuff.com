@@ -10,8 +10,8 @@ loginForm.addEventListener('submit', e => {
   const username = usernameField.value.trim();
   const password = passwordField.value.trim();
   
-  sessionStorage.setItem('username', 'beck');
-  sessionStorage.setItem('password', 'beb');
+  export var username1 = username;
+  export var password1 = password;
 
   
   if (username === '' || password === '') {
