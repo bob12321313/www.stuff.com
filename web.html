@@ -26,13 +26,9 @@
     <script>
       const username = sessionStorage.getItem('username');
       const password = sessionStorage.getItem('password');
-      if (username === 'beck') {
-        if (password === 'beb') {
-      document.getElementById('admin').style.display='block';
-        }
-      }
-      else {
-         document.getElementById('admin').style.display='none';
+      
+      if (username === 'beck' && password === 'beb') {
+        document.getElementById('admin').style.display='block';
       }
     </script>
    
