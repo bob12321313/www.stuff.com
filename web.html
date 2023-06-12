@@ -24,8 +24,8 @@
 }
     </style>
     <script>
-      const username = JSON.parse(sessionStorage.getItem('username'));
-      const password = JSON.parse(sessionStorage.getItem('password'));
+      var username = sessionStorage.getItem('username');
+      var password = sessionStorage.getItem('password');
       
       if (username === 'beck' && password === 'beb') {
         document.getElementById('admin').style.display='block';
