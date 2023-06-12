@@ -27,7 +27,7 @@ if (usernames.includes(username)) {
   document.getElementById('link').style.display='block';
   alert(`Login successful ${username}!`);
   if (username === 'beck' && password === 'beb') {
-        document.getElementById('admin').style.display='block';
+       document.getElementById('admin').style.display='block';
      }
     
   }
