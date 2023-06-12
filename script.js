@@ -1,4 +1,3 @@
-
 const usernames = JSON.parse(localStorage.getItem('usernames'));
 const passwords = JSON.parse(localStorage.getItem('passwords'));
 const loginForm = document.getElementById('login-form');
