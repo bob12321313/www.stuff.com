@@ -73,8 +73,12 @@ function simulateBattle(army1, army2) {
     winner: winner,
     army1Survivors: army1Survivors.join(", "),
     army2Survivors: army2Survivors.join(", "),
+    
   };
 }
+alert(winner);
+alert(army1Survivors);
+alert(army2Survivors);
 
 // Function to randomly determine the outcome of a battle round
 function determineOutcome(unit1, unit2) {
