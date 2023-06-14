@@ -24,11 +24,12 @@ if (usernames.includes(username)) {
   const cd_password = passwords.slice(check, check + 1);
   if (cd_password.includes(password)) {
   
-  document.getElementById('admin').style.display='block'; 
+  
   document.getElementById('link').style.display='block';
   alert(`Login successful ${username}!`);
-  
-    
+  if (username === 'beck' && password === 'beb') {
+    document.getElementById('admin').style.display='block'; 
+  }
   }
  }
   
