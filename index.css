@@ -44,12 +44,7 @@ body {
 
 
  a {
-  background-color: blue;
   color: white;
-  padding: 14px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
     }
       a:hover {
   background-color: green;
