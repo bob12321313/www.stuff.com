@@ -35,7 +35,7 @@ body {
 }
 
 .dropdown-content a:hover {
-  background-color: green;
+  //enter text
 }
 
 .show {
@@ -47,10 +47,6 @@ body {
  a {
   color: white;
     }
-
-a: hover {
-color: green; 
-}
 
 body {
   margin: 0;
